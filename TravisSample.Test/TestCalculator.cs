@@ -21,13 +21,13 @@ namespace TravisSample.Test
         [TestCase(1,2,3)]
         [TestCase(1,4,5)]
         [TestCase(3,2,5)]
-        [TestCase(1,7,8)]
+        [TestCase(1,5,8)]
         public void TestAdd(int a, int b, int sum)
         {
             Assert.AreEqual(sum, _cal.Add(a, b));
         }
 
-        [TestCase(10, 2, 8)]
+        [TestCase(8, 2, 8)]
         [TestCase(11, 4, 7)]
         [TestCase(13, 2, 11)]
         [TestCase(12, 7, 5)]
